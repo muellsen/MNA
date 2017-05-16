@@ -1,4 +1,4 @@
 # MNA
-Microbial network analysis
+Microbial Network Analysis 
 
-This folder comprises a number of functions and scripts for (microbial) network analysis.
+This project comprises a number of functions and scripts for (microbial) network analysis. 

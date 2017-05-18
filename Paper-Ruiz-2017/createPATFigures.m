@@ -50,6 +50,8 @@ end
 % Compute 2D multidimensional scaling using GCD (stored in distMat)
 [mdsCoords,mdstress] = mdscale(distMat,2);
 
+%% Create Figure 5
+
 markersymbol = '...^^';
 markersize = {80,80,80,20,20}
 scrsz = get(groot,'ScreenSize');

@@ -27,9 +27,9 @@
 nGraphs = 5;
 
 %% Color scheme used in paper (provided by Zachary Kurtz)
-%hexColors = {'#1b9e77', '#d95f02', '#7570b3', '#e7298a','#66a61e','#e6ab02'};
-hexColors = {'000000','2e8f4f','e52b8e','0000ff','ff0000'}
-colorMat = hex2rgb(hexColors)
+%hexColors = {'000000','2e8f4f','e52b8e','0000ff','ff0000'}
+%colorMat = hex2rgb(hexColors)
+%colorMat saved in PATNetworksDataOrig.mat
 
 % Graph statistics used here: Full graphs (could also use largest
 % component)

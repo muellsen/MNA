@@ -3,7 +3,7 @@ function [glcMat,glcPerMat,permInds] = glcm(glMat)
 % Output:  glcMat: pxp graphlet correlation matrix
 %          glcPerMat: pxp graphlet correlation matrix with permuted order
 %          (according to Yaveroglu et al., 2014)
-%          permInds:   
+%          permInds: Permutation for plotting correlations according to Yaveroglu et al., 2014   
 
 % Size of the graphlet matrix
 [p,nGl] = size(glMat);

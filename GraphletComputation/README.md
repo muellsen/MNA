@@ -22,7 +22,7 @@ After downloading the MNA package, go to the GraphletComputation/ folder and run
 % Run this script
 testGraphletComputation
 ```
-The script loads five microbial networks used in [1] and shows 
+The script loads five microbial networks used in the PAT study [2] and shows 
 * how to computation graphlet correlation (GC) matrices for each network,
 * how to compute distances between networks using these GC matrices,
 * how to do a 2D MDS embedding.

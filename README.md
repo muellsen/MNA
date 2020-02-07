@@ -10,6 +10,8 @@ This project comprises a collection of functions and scripts for (microbial) net
 The folder Paper-Ruiz-2017/ comprises results from [1].
 The folder Tipton-2018/ comprises results from [2].
 
+## Graphlets, graphlet correlations, and graphlet correlation distance computation
+
 The folder GraphletComputation/ shows how to do microbial network comparisons for networks of different sizes. It is based on 
 the Graphlet Correlation Distance (GCD), as introduced in 
 * [3] Yaveroglu et al., [Revealing the Hidden Language of Complex Networks](https://www.nature.com/articles/srep04547), Scientific Reports, vol 4:4547 (2014).

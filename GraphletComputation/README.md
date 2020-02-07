@@ -12,3 +12,16 @@ The github CRAN read-only mirror for the orca package can be found [here.](https
 (https://www.jstatsoft.org/article/view/v071i10/0), Journal of Statistical Software,  vol 71:10 (2016)
 The orca homepage with supporting information can be found [here.](http://www.biolab.si/supp/Rorca/)
 
+All MATLAB files are documented.
+
+After downloading the MNA package, go to the GraphletComputation/ folder and run the script
+
+```MATLAB
+% Run this script
+testGraphletComputation
+```
+The script loads five microbial networks used in [1] and shows 
+* how to computation graphlet correlation (GC) matrices for each network,
+* how to compute distances between networks using these GC matrices,
+* how to do a 2D MDS embedding.
+

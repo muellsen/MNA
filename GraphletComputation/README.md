@@ -10,7 +10,11 @@ The github CRAN read-only mirror for the orca package can be found [here.](https
 * [5] Hocevar & Demsar, [Computation of graphlet orbits for nodes and edges in sparse graphs](https://www.jstatsoft.org/article/view/v071i10/0), Journal of Statistical Software,  vol 71:10 (2016)
 The orca homepage with supporting information can be found [here.](http://www.biolab.si/supp/Rorca/)
 
-All MATLAB files are documented.
+## Installation
+
+You may need to compile the orca package on your machine first before using it within MATLAB. See [here.](http://www.biolab.si/supp/Rorca/) for installation guidance
+
+## Graphlet computations
 
 After downloading the MNA package, go to the GraphletComputation/ folder and run the script
 
@@ -22,4 +26,6 @@ The script loads five microbial networks used in [1] and shows
 * how to computation graphlet correlation (GC) matrices for each network,
 * how to compute distances between networks using these GC matrices,
 * how to do a 2D MDS embedding.
+
+All MATLAB files are documented.
 

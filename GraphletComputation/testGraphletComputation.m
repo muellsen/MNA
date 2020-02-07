@@ -58,9 +58,19 @@ ylabel('MDS 2')
 axis equal
 legend({'Network 1','Network 2','Network 3','Network 4','Network 5'},'FontSize',20)
 
-% Remove temporary files
+% Remove temporary text files
 !rm tempG.in
 !rm tempGlMat.mat
+
+% Test correctness of the computation by comparing distance calculations
+% with the ones provided in the PATNetworksDataOrig.mat file
+
+% Pre-computed distance matrix distMat
+
+distDiff = norm(distMat(:)-distMatEx(:));
+display(['L2 norm difference between pre-computed and computed distance matrix: ',num2str(distDiff)])
+
+
 
 
 
